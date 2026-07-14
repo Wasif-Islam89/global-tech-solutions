@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio — Websites, ERP & Landing Pages We've Built | Mani Corps</title>
+  <meta name="description"
+    content="Browse Mani Corps' portfolio of custom business websites, ERP systems, landing pages, and e-commerce stores built for startups, corporates, and educational institutions.">
+  <meta property="og:title" content="Portfolio | Mani Corps">
+  <meta property="og:description"
+    content="Real projects across web development, ERP, and digital marketing — see the work behind the results.">
+  <meta name="theme-color" content="#0F172A">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./animations.css">
+  <link rel="stylesheet" href="./responsive.css">
+</head>
+
+<body>
+
+  <div class="loader" aria-hidden="true">
+    <div class="loader-mark"><span class="loader-node"></span>Mani Corps</div>
+  </div>
+  <div class="scroll-progress"></div>
+
+  <header class="navbar">
+    <div class="nav-inner">
+      <a href="./index.html" class="logo"><span class="logo-mark"></span>Mani Corps</a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="./index.html">Home</a>
+        <a href="./about.html">About</a>
+        <a href="./services.html">Services</a>
+        <a href="./portfolio.html" class="active">Portfolio</a>
+        <a href="./contact.html">Contact</a>
+      </nav>
+      <div class="nav-cta">
+        <a href="./contact.html" class="btn btn-primary btn-sm">Get Started</a>
+        <button class="nav-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-menu">
+    <a href="./index.html">Home</a>
+    <a href="./about.html">About</a>
+    <a href="./services.html">Services</a>
+    <a href="./portfolio.html" class="active">Portfolio</a>
+    <a href="./contact.html">Contact</a>
+    <a href="./contact.html" class="btn btn-primary">Get Started</a>
+  </div>
+
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="./index.html">Home</a> / Portfolio</div>
+      <h1>Work our clients are proud to put their name on</h1>
+      <p>A selection of business websites, ERP systems, landing pages, and e-commerce builds — each shipped on schedule
+        and still running strong today.</p>
+    </div>
+  </section>
+
+  <!-- FILTERS + GRID -->
+  <section class="portfolio">
+    <div class="container">
+      <div class="portfolio-filters reveal">
+        <button class="filter-btn active" data-filter="all">All Work</button>
+        <button class="filter-btn" data-filter="business">Business Websites</button>
+        <button class="filter-btn" data-filter="erp">ERP Projects</button>
+        <button class="filter-btn" data-filter="landing">Landing Pages</button>
+        <button class="filter-btn" data-filter="corporate">Corporate Websites</button>
+        <button class="filter-btn" data-filter="ecommerce">E-commerce</button>
+      </div>
+
+      <div class="portfolio-grid">
+        <div class="portfolio-card reveal stagger-1" data-category="corporate">
+          <div class="portfolio-thumb">
+            <div class="grid-overlay"></div><span class="tag">Corporate Website</span>
+          </div>
+          <div class="portfolio-body">
+            <div class="cat">Consulting</div>
+            <h4>Cedar & Co. Consulting</h4>
+            <p>A confident, credibility-first site rebuilt for a growing advisory firm — cut bounce rate on the services
+              page by 34%.</p>
+          </div>
+        </div>
+        <div class="portfolio-card reveal stagger-2" data-category="erp">
+          <div class="portfolio-thumb">
+            <div class="grid-overlay"></div><span class="tag">ERP System</span>
+          </div>
+          <div class="portfolio-body">
+            <div class="cat">Education</div>
+            <h4>Vantage Academy ERP</h4>
+            <p>Admissions, fee collection, and attendance unified into a single dashboard for a 900-student academy.</p>
+          </div>
+        </div>
+        <div class="portfolio-card reveal stagger-3" data-category="landing">
+          <div class="portfolio-thumb">
+            <div class="grid-overlay"></div><span class="tag">Landing Page</span>
+          </div>
+          <div class="portfolio-body">
+            <div class="cat">E-commerce</div>
+            <h4>Alcove Studio Launch</h4>
+            <p>A single-purpose product launch page that converted at 6.2% during its opening week.</p>
+          </div>
+        </div>
+        <div class="portfolio-card reveal stagger-4" data-category="ecommerce">
+          <div class="portfolio-thumb">
+            <div class="grid-overlay"></div><span class="tag">E-commerce Store</span>
+          </div>
+          <div class="portfolio-body">
+            <div class="cat">Retail</div>
+            <h4>Northgate Retail Storefront</h4>
+            <p>A full online storefront with inventory sync, replacing a marketplace-only sales channel.</p>
+          </div>
+        </div>
+        <div class="portfolio-card reveal stagger-5" data-category="business">
+          <div class="portfolio-thumb">
+            <div class="grid-overlay"></div><span class="tag">Business Website</span>
+          </div>
+          <div class="portfolio-body">
+            <div class="cat">Healthcare</div>
+            <h4>Brightline Health Clinic</h4>
+            <p>An appointment-friendly clinic website with service pages built around patient search intent.</p>
+          </div>
+        </div>
+        <div class="portfolio-card reveal stagger-6" data-category="erp">
+          <div class="portfolio-thumb">
+            <div class="grid-overlay"></div><span class="tag">CRM System</span>
+          </div>
+          <div class="portfolio-body">
+            <div class="cat">Trading</div>
+            <h4>Meridian Traders CRM</h4>
+            <p>A lightweight CRM tracking leads, quotes, and repeat orders across a five-person sales team.</p>
+          </div>
+        </div>
+        <div class="portfolio-card reveal stagger-1" data-category="business">
+          <div class="portfolio-thumb">
+            <div class="grid-overlay"></div><span class="tag">Business Website</span>
+          </div>
+          <div class="portfolio-body">
+            <div class="cat">Professional Services</div>
+            <h4>Harborview Legal Partners</h4>
+            <p>A restrained, document-forward site for a law practice that wanted authority over flash.</p>
+          </div>
+        </div>
+        <div class="portfolio-card reveal stagger-2" data-category="corporate">
+          <div class="portfolio-thumb">
+            <div class="grid-overlay"></div><span class="tag">Corporate Website</span>
+          </div>
+          <div class="portfolio-body">
+            <div class="cat">Manufacturing</div>
+            <h4>Ironclad Industrial Group</h4>
+            <p>A multi-division corporate site with a product catalog serving three regional offices.</p>
+          </div>
+        </div>
+        <div class="portfolio-card reveal stagger-3" data-category="landing">
+          <div class="portfolio-thumb">
+            <div class="grid-overlay"></div><span class="tag">Landing Page</span>
+          </div>
+          <div class="portfolio-body">
+            <div class="cat">SaaS</div>
+            <h4>Fieldnote App Waitlist</h4>
+            <p>A pre-launch waitlist page that collected 2,300 signups ahead of a mobile app release.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CASE STUDIES -->
+  <section class="case-studies">
+    <div class="container">
+      <div class="section-head center reveal">
+        <div class="eyebrow">Case Studies</div>
+        <h2>A closer look at three projects</h2>
+        <p>The brief, the build, and what changed after launch.</p>
+      </div>
+
+      <div class="case-study">
+        <div class="case-visual reveal left">
+          <div class="grid-overlay"></div>
+        </div>
+        <div class="case-content reveal right">
+          <div class="cat"
+            style="font-family:var(--font-mono);font-size:.78rem;color:var(--primary);text-transform:uppercase;letter-spacing:.08em;">
+            Corporate Website</div>
+          <h3 style="margin-top:10px;">Cedar & Co. Consulting</h3>
+          <p style="margin-top:14px;">Cedar & Co. came to us with a five-year-old WordPress site that no longer matched
+            the caliber of clients they were winning. We rebuilt it as a custom-coded site with a case-study-driven
+            services section and a streamlined contact path.</p>
+          <div class="case-tags">
+            <span>Custom HTML/CSS/JS</span>
+            <span>SEO Migration</span>
+            <span>Lead Capture</span>
+          </div>
+          <p class="case-quote">"Inbound inquiries from the site nearly doubled within two months of launch, and they
+            were better qualified than before."</p>
+        </div>
+      </div>
+
+      <div class="case-study">
+        <div class="case-visual reveal left">
+          <div class="grid-overlay"></div>
+        </div>
+        <div class="case-content reveal right">
+          <div class="cat"
+            style="font-family:var(--font-mono);font-size:.78rem;color:var(--primary);text-transform:uppercase;letter-spacing:.08em;">
+            Educational ERP</div>
+          <h3 style="margin-top:10px;">Vantage Academy ERP</h3>
+          <p style="margin-top:14px;">Vantage Academy was managing admissions, fees, and attendance across four separate
+            spreadsheets. We designed and built a role-based ERP dashboard that consolidated all three into one system,
+            with training provided to non-technical staff at handover.</p>
+          <div class="case-tags">
+            <span>Custom Dashboard</span>
+            <span>Role-Based Access</span>
+            <span>Staff Training</span>
+          </div>
+          <p class="case-quote">"Attendance and fee tracking finally live in one place — our front-desk team picked it
+            up in a single afternoon."</p>
+        </div>
+      </div>
+
+      <div class="case-study" style="border-bottom:none;">
+        <div class="case-visual reveal left">
+          <div class="grid-overlay"></div>
+        </div>
+        <div class="case-content reveal right">
+          <div class="cat"
+            style="font-family:var(--font-mono);font-size:.78rem;color:var(--primary);text-transform:uppercase;letter-spacing:.08em;">
+            E-commerce</div>
+          <h3 style="margin-top:10px;">Alcove Studio Launch</h3>
+          <p style="margin-top:14px;">Ahead of a limited product drop, Alcove Studio needed a single-purpose landing
+            page built to convert, not to explore the whole catalog. We stripped the layout down to one clear action and
+            paired it with a short paid social campaign.</p>
+          <div class="case-tags">
+            <span>Landing Page</span>
+            <span>Paid Social Support</span>
+            <span>A/B Tested Copy</span>
+          </div>
+          <p class="case-quote">"Our highest single-week conversion rate to date — and the page is still live for
+            restocks."</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials">
+    <div class="container">
+      <div class="section-head center reveal">
+        <div class="eyebrow">Client Voices</div>
+        <h2>Don't take our word for it</h2>
+      </div>
+      <div class="t-slider reveal">
+        <div class="t-track">
+          <div class="t-slide">
+            <div class="t-card">
+              <p class="t-quote">"Mani Corps rebuilt our website in three weeks and our inbound leads doubled the
+                following month."</p>
+              <div class="t-person">
+                <div class="t-avatar">SN</div>
+                <div>
+                  <div class="t-name">Sara Nasir</div>
+                  <div class="t-role">Founder, Cedar & Co.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="t-slide">
+            <div class="t-card">
+              <p class="t-quote">"The ERP system they built replaced four spreadsheets. Everything finally lives in one
+                place."</p>
+              <div class="t-person">
+                <div class="t-avatar">RA</div>
+                <div>
+                  <div class="t-name">Raza Ahmed</div>
+                  <div class="t-role">Director, Vantage Academy</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="t-slide">
+            <div class="t-card">
+              <p class="t-quote">"Fast, professional, and genuinely invested in our growth. Conversion is up 40% since
+                launch."</p>
+              <div class="t-person">
+                <div class="t-avatar">HK</div>
+                <div>
+                  <div class="t-name">Hina Khalid</div>
+                  <div class="t-role">Founder, Alcove Studio</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="t-nav"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section class="final-cta">
+    <div class="container reveal">
+      <h2>Ready to see your project here?</h2>
+      <p>Tell us what you're building — we'll show you exactly how we'd approach it.</p>
+      <div class="hero-ctas">
+        <a href="./contact.html" class="btn btn-primary">Get Started</a>
+        <a href="./services.html" class="btn btn-ghost"
+          style="background:transparent;color:#fff;border-color:rgba(255,255,255,.25);">View Services</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="./index.html" class="logo"><span class="logo-mark"></span>Mani Corps</a>
+          <p>A premium digital agency helping startups, corporates, and institutions build a digital presence that
+            performs.</p>
+          <div class="social-row">
+            <a href="#" aria-label="LinkedIn">in</a>
+            <a href="#" aria-label="Facebook">f</a>
+            <a href="#" aria-label="Instagram">ig</a>
+            <a href="#" aria-label="X">x</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./portfolio.html">Portfolio</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="./services.html">Website Development</a></li>
+            <li><a href="./services.html">ERP & CRM Solutions</a></li>
+            <li><a href="./services.html">SEO & Marketing</a></li>
+            <li><a href="./services.html">Brand Identity</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Stay Updated</h4>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Your email address" required aria-label="Email address">
+            <button type="submit" aria-label="Subscribe">→</button>
+          </form>
+          <ul class="footer-contact" style="margin-top:24px;">
+            <li>📍 Karachi, Pakistan</li>
+            <li>✉️ hello@manicorps.com</li>
+            <li>📞 +92 300 1234567</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Mani Corps. All rights reserved.</span>
+        <span><a href="#">Privacy Policy</a> · <a href="#">Terms of Service</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" aria-label="Back to top">↑</button>
+
+  <script src="./navbar.js"></script>
+  <script src="./js/slider.js"></script>
+  <script src="./script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Mani Corps — Get a Free Project Quote</title>
+  <meta name="description"
+    content="Get in touch with Mani Corps for your website, ERP, CRM, SEO or digital marketing project. Based in Karachi, working with clients worldwide.">
+  <meta property="og:title" content="Contact | Mani Corps">
+  <meta property="og:description"
+    content="Tell us about your project and we'll get back to you within one business day.">
+  <meta name="theme-color" content="#0F172A">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./animations.css">
+  <link rel="stylesheet" href="./responsive.css">
+</head>
+
+<body>
+
+  <div class="loader" aria-hidden="true">
+    <div class="loader-mark"><span class="loader-node"></span>Mani Corps</div>
+  </div>
+  <div class="scroll-progress"></div>
+
+  <header class="navbar">
+    <div class="nav-inner">
+      <a href="./index.html" class="logo"><span class="logo-mark"></span>Mani Corps</a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="./index.html">Home</a>
+        <a href="./about.html">About</a>
+        <a href="./services.html">Services</a>
+        <a href="./portfolio.html">Portfolio</a>
+        <a href="./contact.html" class="active">Contact</a>
+      </nav>
+      <div class="nav-cta">
+        <a href="./contact.html" class="btn btn-primary btn-sm">Get Started</a>
+        <button class="nav-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-menu">
+    <a href="./index.html">Home</a>
+    <a href="./about.html">About</a>
+    <a href="./services.html">Services</a>
+    <a href="./portfolio.html">Portfolio</a>
+    <a href="./contact.html" class="active">Contact</a>
+    <a href="./contact.html" class="btn btn-primary">Get Started</a>
+  </div>
+
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="./index.html">Home</a> / Contact</div>
+      <h1>Let's talk about your project</h1>
+      <p>Tell us where you're stuck or where you want to go — we'll reply within one business day with next steps, no
+        obligation.</p>
+    </div>
+  </section>
+
+  <!-- CONTACT CARDS -->
+  <section class="contact-cards">
+    <div class="container">
+      <div class="contact-cards-grid">
+        <div class="contact-card reveal stagger-1">
+          <div class="service-icon">📍</div>
+          <h4>Visit Us</h4>
+          <p><strong>Mani Corps HQ</strong><br>Shahrah-e-Faisal, Karachi, Sindh, Pakistan</p>
+        </div>
+        <div class="contact-card reveal stagger-2">
+          <div class="service-icon">✉️</div>
+          <h4>Email Us</h4>
+          <p><strong><a href="mailto:hello@manicorps.com">hello@manicorps.com</a></strong><br>We reply within 24 hours
+            on business days.</p>
+        </div>
+        <div class="contact-card reveal stagger-3">
+          <div class="service-icon">📞</div>
+          <h4>Call Us</h4>
+          <p><strong><a href="tel:+923001234567">+92 300 1234567</a></strong><br>Mon–Sat, 10:00 AM – 7:00 PM PKT</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT FORM -->
+  <section class="contact-main">
+    <div class="container">
+      <div class="contact-form-wrap reveal left">
+        <div class="eyebrow">Send a Message</div>
+        <h2>Get a free project quote</h2>
+        <p style="margin:14px 0 30px;">Fill in a few details about what you need and we'll come back with a scoped
+          estimate and timeline.</p>
+
+        <form class="contact-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="fname">Full Name</label>
+              <input type="text" id="fname" name="fname" placeholder="Your full name" required>
+            </div>
+            <div class="form-group">
+              <label for="femail">Email Address</label>
+              <input type="email" id="femail" name="femail" placeholder="you@company.com" required>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="fphone">Phone Number</label>
+              <input type="tel" id="fphone" name="fphone" placeholder="+92 300 0000000">
+            </div>
+            <div class="form-group">
+              <label for="fservice">Service Needed</label>
+              <select id="fservice" name="fservice" required>
+                <option value="" selected disabled>Select a service</option>
+                <option>Custom Website Development</option>
+                <option>WordPress Website</option>
+                <option>E-commerce Website</option>
+                <option>Landing Page</option>
+                <option>SEO & Digital Marketing</option>
+                <option>ERP / CRM Solution</option>
+                <option>Business Automation</option>
+                <option>Website Maintenance & Support</option>
+                <option>Something Else</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="fbudget">Estimated Budget</label>
+            <select id="fbudget" name="fbudget">
+              <option value="" selected disabled>Select a range</option>
+              <option>Under $500</option>
+              <option>$500 – $1,500</option>
+              <option>$1,500 – $5,000</option>
+              <option>$5,000+</option>
+              <option>Not sure yet</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="fmessage">Project Details</label>
+            <textarea id="fmessage" name="fmessage" placeholder="Tell us about your business, goals, and timeline..."
+              required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;">Send Message</button>
+          <p class="form-note">By submitting, you agree to be contacted by Mani Corps regarding your inquiry. We never
+            share your details with third parties.</p>
+        </form>
+      </div>
+
+      <div class="contact-side reveal right">
+        <div class="eyebrow">Before You Reach Out</div>
+        <h2>Quick answers</h2>
+        <div class="faq-list" style="margin-top:24px;">
+          <div class="faq-item open">
+            <div class="faq-q">How soon can we start?<span class="icon"></span></div>
+            <div class="faq-a">
+              <p>Most projects kick off within one week of a signed proposal, depending on current capacity.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q">Do you require a deposit?<span class="icon"></span></div>
+            <div class="faq-a">
+              <p>Yes — a 50% deposit secures your project slot, with the balance due at launch.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q">Can we schedule a call first?<span class="icon"></span></div>
+            <div class="faq-a">
+              <p>Of course. Mention your preferred time zone in the message above and we'll send a booking link.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q">Do you sign an NDA?<span class="icon"></span></div>
+            <div class="faq-a">
+              <p>Yes — we're happy to sign an NDA before any detailed discovery call.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MAP -->
+  <section class="map-block">
+    <div class="container reveal">
+      <div class="map-placeholder">
+        <div class="grid-overlay"></div>
+        <div class="map-pin"></div>
+        <span class="map-label">Mani Corps HQ — Karachi, Pakistan</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq">
+    <div class="container">
+      <div class="section-head center reveal">
+        <div class="eyebrow">Still Have Questions</div>
+        <h2>Frequently asked questions</h2>
+      </div>
+      <div class="faq-list reveal">
+        <div class="faq-item open">
+          <div class="faq-q">Do you work with clients outside Pakistan?<span class="icon"></span></div>
+          <div class="faq-a">
+            <p>Yes — a large share of our clients are international, and we work comfortably across time zones with
+              async updates and scheduled calls.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q">What information should I prepare before contacting you?<span class="icon"></span></div>
+          <div class="faq-a">
+            <p>A short description of your business, your goals for the project, and any reference websites you like
+              will help us respond faster and more accurately.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q">Do you offer payment plans?<span class="icon"></span></div>
+          <div class="faq-a">
+            <p>Yes — for larger ERP, CRM, and automation projects we can split payment across agreed milestones.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q">What happens after I submit the form?<span class="icon"></span></div>
+          <div class="faq-a">
+            <p>You'll hear back from our team within one business day to schedule a short discovery call and confirm
+              next steps.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section class="final-cta">
+    <div class="container reveal">
+      <h2>Let's Build Your Business Together</h2>
+      <p>Whatever stage you're at, we're ready to help you build a digital presence that performs.</p>
+      <div class="hero-ctas">
+        <a href="mailto:hello@manicorps.com" class="btn btn-primary">Email Us Directly</a>
+        <a href="./portfolio.html" class="btn btn-ghost"
+          style="background:transparent;color:#fff;border-color:rgba(255,255,255,.25);">View Portfolio</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="./index.html" class="logo"><span class="logo-mark"></span>Mani Corps</a>
+          <p>A premium digital agency helping startups, corporates, and institutions build a digital presence that
+            performs.</p>
+          <div class="social-row">
+            <a href="#" aria-label="LinkedIn">in</a>
+            <a href="#" aria-label="Facebook">f</a>
+            <a href="#" aria-label="Instagram">ig</a>
+            <a href="#" aria-label="X">x</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./portfolio.html">Portfolio</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="./services.html">Website Development</a></li>
+            <li><a href="./services.html">ERP & CRM Solutions</a></li>
+            <li><a href="./services.html">SEO & Marketing</a></li>
+            <li><a href="./services.html">Brand Identity</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Stay Updated</h4>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Your email address" required aria-label="Email address">
+            <button type="submit" aria-label="Subscribe">→</button>
+          </form>
+          <ul class="footer-contact" style="margin-top:24px;">
+            <li>📍 Karachi, Pakistan</li>
+            <li>✉️ hello@manicorps.com</li>
+            <li>📞 +92 300 1234567</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Mani Corps. All rights reserved.</span>
+        <span><a href="#">Privacy Policy</a> · <a href="#">Terms of Service</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" aria-label="Back to top">↑</button>
+
+  <script src="./navbar.js"></script>
+  <script src="./script.js"></script>
+</body>
+
+</html>
